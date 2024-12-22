@@ -43,9 +43,7 @@ export default function Home() {
     // TODO: Update the UI here to show the images generated
 
     <div className="min-h-screen flex flex-col justify-between p-8">
-      <h1 className="text-center font-semibold text-4xl">
-        Pentagram Image Generator
-      </h1>
+      <h1 className="text-center text-4xl">Pentagram Ai Image Generator</h1>
       <main className="flex-1 flex flex-col items-center gap-8">
         {/* Main content can go here */}
         {imageUrl && (
