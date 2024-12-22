@@ -1,7 +1,8 @@
 import { put } from "@vercel/blob";
 import crypto from "crypto";
 import { NextResponse } from "next/server";
-
+// Ignoring the eslint rule for unused variables
+/* eslint-disable @typescript-eslint/no-unused-vars */
 export async function POST(request: Request) {
   try {
     const body = await request.json();
