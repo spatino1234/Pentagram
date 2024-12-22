@@ -54,9 +54,9 @@ export async function POST(request: Request) {
       imageUrl: blob.url,
       // message: `Received: ${text}`,
     });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json(
-      { success: false, error: "Failed to process request" },
+      { success: false, _error: "Failed to process request" },
       { status: 500 }
     );
   }
